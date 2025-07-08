@@ -19,9 +19,6 @@ export default function LoginForm() {
         <CardDescription>
           Enter your email below to login to your account
         </CardDescription>
-        <CardAction>
-          <Button variant="link">Sign Up</Button>
-        </CardAction>
       </CardHeader>
       <CardContent>
         <form>
@@ -53,9 +50,6 @@ export default function LoginForm() {
       <CardFooter className="flex-col gap-2">
         <Button type="submit" className="w-full">
           Login
-        </Button>
-        <Button variant="outline" className="w-full">
-          Login with Google
         </Button>
       </CardFooter>
     </Card>
